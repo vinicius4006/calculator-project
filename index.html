@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    
+    <table id = "calculadora">
+        <tbody>
+            <tr>
+                <td colspan="4" id="visor2"></td>
+                <td colspan="4" id="visor1"></td>
+                
+            </tr>
+            <tr class="teclas">
+                <td colspan="2" id="clear" onclick="clearNums()">AC</td>
+                <td colspan="2" onclick="changeSignal()">+/-</td>
+                <td colspan="2" onclick="perc()">%</td>
+                <td colspan="2" onclick="opBasico(123)">÷</td>
+            </tr>
+            <tr class="teclas">
+                <td colspan="2" onclick="num(7)">7</td>
+                <td colspan="2" onclick="num(8)">8</td>
+                <td colspan="2" onclick="num(9)">9</td>
+                <td colspan="2" onclick="opBasico(321)">X</td>
+            </tr>
+            <tr class="teclas">
+                <td colspan="2" onclick="num(4)">4</td>
+                <td colspan="2" onclick="num(5)">5</td>
+                <td colspan="2" onclick="num(6)">6</td>
+                <td colspan="2" onclick="opBasico(654)">-</td>
+            </tr>
+            <tr class="teclas">
+                <td colspan="2" onclick="num(3)">3</td>
+                <td colspan="2" onclick="num(2)">2</td>
+                <td colspan="2" onclick="num(1)">1</td>
+                <td colspan="2" onclick="opBasico(456)">+</td>
+            </tr>
+            <tr class="teclas">
+                
+                <td colspan="2" onclick="num(0)">0</td>
+                <td colspan="2" onclick="ponto()">.</td>
+                <td colspan="4" id="res" onclick="res()">=</td>
+                
+            </tr>
+            
+        
+        </tbody>
+        
+    </table>
+    <script src="app.js"></script>
+</body>
+</html>
