@@ -5,4 +5,4 @@
 <h1>3. Extraia em uma única pasta</h1>
 <h1>4. Abra o arquivo <strong>index.html</strong></h1>
     
-    ![Alt text](https://github.com/vinicius4006/calculator-project/blob/main/calculator.PNG "Calculator")
+  ![Alt text](https://github.com/vinicius4006/calculator-project/blob/main/calculator.PNG "Calculator")
